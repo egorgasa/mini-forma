@@ -1,0 +1,59 @@
+*{
+  box-sizing:border-box;
+}
+
+.box{
+  border:solid;
+  margin:10px;
+  width:400px;
+}
+
+ul{
+  padding-inline-start: 10px;
+}
+
+.allMes{
+  display:flex;
+  justify-content: flex-start;
+  border:solid;
+  margin:10px;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.foot{
+  display:flex;
+  /* 	border:solid; */
+  margin:10px;
+}
+.input{
+  color:black;
+  font-weight: bold;
+  border-radius:4px;
+}
+.buttom{
+  margin-left:10px;
+  background-color:black;
+  color:white;
+  font-weight: bold;
+}
+
+.OneMess{
+  display:flex;
+  justify-content:flex-start;
+  margin:10px;
+  padding-left:10px;
+  border:solid;
+  font-weight:bold;
+  height:25px;
+}
+.soob{
+  padding-left:3px;
+  padding-top:2px;
+}
+.simvol{
+  font-weight:bold;
+  font-size:15px;
+}
